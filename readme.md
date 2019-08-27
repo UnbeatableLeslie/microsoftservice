@@ -1,5 +1,6 @@
-##微服务学习demo
-###Eureka      注册中心
+## 微服务学习demo
+
+### Eureka      注册中心
 - 1、pom需要添加
 ```xml
     <dependencies>
@@ -62,7 +63,7 @@ eureka:
 ```java
 @EnableEurekaClient
 ```
-###Ribbon      负载均衡
+### Ribbon      负载均衡
 ```spring cloud 负载均衡为软负载 通过调用放 通过轮询算法在服务之间切换调用```
 - 1、服务端yml配置
 ```xml
@@ -95,8 +96,8 @@ spring:
         return forObject;
     }
 ```
-###Feign       RESTFUL负载均衡
-###Hystrix     熔断
+### Feign       RESTFUL负载均衡
+### Hystrix     熔断
 ```text
 熔断是当服务接口调用异常的情况加 通过设置返回友好或者提示信息，避免服务崩溃，也便于开发人员排错
 ```
@@ -133,5 +134,5 @@ spring:
         return list;
     }
 ```
-###Zuul        网关
-###Config      统一配置管理
+### Zuul        网关
+### Config      统一配置管理
