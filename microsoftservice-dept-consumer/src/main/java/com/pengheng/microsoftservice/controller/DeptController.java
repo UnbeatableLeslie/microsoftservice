@@ -14,7 +14,10 @@ public class DeptController {
     @Autowired
     private RestTemplate restTemplate;
 
-    private final String REST_URL_PREFIX="http://localhost:8002/";
+//    private final String REST_URL_PREFIX="http://localhost:8002/";
+    //负载均衡方式调用接口  前缀使用spring.application.name 去eureka 获取服务对象
+    private final String REST_URL_PREFIX="http://PROVIDER-DEPT/";
+
 
     @RequestMapping("comsumer/dept/list")
     public List<Dept> list(){

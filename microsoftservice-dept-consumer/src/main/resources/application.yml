@@ -1,10 +1,9 @@
 server:
-  port: 8001
+  port: 80
 spring:
   application:
-    name: consumer-8001
-
+    name: consumer-80
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:7001/eureka/
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/

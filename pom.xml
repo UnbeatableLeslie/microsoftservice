@@ -11,8 +11,10 @@
     <modules>
         <module>microsoftservice-dept-api</module>
         <module>microsoftservice-dept-consumer</module>
-        <module>microsoftservice-dept-provider</module>
         <module>microsoftservice-dept-eureka-7001</module>
+        <module>microsoftservice-dept-eureka-7002</module>
+        <module>microsoftservice-dept-provider-8001</module>
+        <module>microsoftservice-dept-provider-8002</module>
     </modules>
 
     <parent>

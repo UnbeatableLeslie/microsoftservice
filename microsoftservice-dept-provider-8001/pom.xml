@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>microsoftservice-dept-provider</artifactId>
+    <artifactId>microsoftservice-dept-provider-8001</artifactId>
     <dependencies>
         <dependency>
             <groupId>microsoftservice</groupId>
